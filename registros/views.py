@@ -12,7 +12,7 @@ def formulario(request):
 
         fecha_creacion = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
-        RUTA_ARCHIVO = r"C:\Users\User\Desktop\proyecto\produccion.txt"
+        RUTA_ARCHIVO = r"produccion.txt"
 
         with open(RUTA_ARCHIVO, "a", encoding="utf-8") as archivo:
             archivo.write(
